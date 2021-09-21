@@ -24,7 +24,6 @@ def card_guess():
         lives = 5
     numbers = [i for i in range(100)]
     chosen_number = choice(numbers)
-    print(f"the chosen number is {chosen_number}")
     print(f"your remaining lives are: { lives}")
     
 
